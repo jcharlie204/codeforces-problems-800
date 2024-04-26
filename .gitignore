@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/c++,linux,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,linux,macos,windows
 
+*
+!/**/
+!*.*
+
 ### C++ ###
 # Prerequisites
 *.d
@@ -108,7 +112,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-*
-!/**/
-!*.*
+
+.cph
 # End of https://www.toptal.com/developers/gitignore/api/c++,linux,macos,windows
